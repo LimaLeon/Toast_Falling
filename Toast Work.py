@@ -46,7 +46,7 @@ print("Masked RGB Image:", maskedRGBImage)
 import matplotlib.pyplot as plt
 
 # Display the masked RGB image
-plt.imshow(maskedRGBImage)
+plt.imshow(BW)
 plt.axis('off')  # Hide axis for better viewing
 plt.show()
 
