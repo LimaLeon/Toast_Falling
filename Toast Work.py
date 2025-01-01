@@ -6,10 +6,10 @@ import numpy as np
 # Start MATLAB engine
 eng = matlab.engine.start_matlab()
 
-eng.addpath(r'C:\\Users\\ortiz\\OneDrive\\Documents\\MATLAB\\Toast')
+eng.addpath(r'C:\\Users\\ortiz\\OneDrive\\Documents\\cse2050\\DisguisedToast\\Toast')
 
 # Read image using sci py.misc.imread (Just like how MATLAB using imread)
-image_path = r'C:\\Users\\ortiz\\OneDrive\Documents\\MATLAB\\Toast\\Toast_1.png'
+image_path = r'C:\\Users\\ortiz\\OneDrive\Documents\\cse2050\\DisguisedToast\\Toast\\Toast_1.png'
 image = Image.open(image_path)
 
 # Convert the image to a NumPy array (RGB)
